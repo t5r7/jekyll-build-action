@@ -1,5 +1,5 @@
 # This image is cached on the Github Actions VM, so it drastically reduces build time
-FROM jekyll/builder:4
+FROM jvconseil/jekyll-docker:4
 USER root
 
 # If we ever need anything
