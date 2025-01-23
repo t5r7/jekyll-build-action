@@ -1,8 +1,9 @@
 # This image is cached on the Github Actions VM, so it drastically reduces build time
-FROM jekyll/builder:3
+FROM jekyll/builder:4
 USER root
 
-RUN apk add --no-cache imagemagick
+# If we ever need anything
+# RUN apk add --no-cache <apk>
 
 COPY entrypoint.sh /entrypoint.sh
 
