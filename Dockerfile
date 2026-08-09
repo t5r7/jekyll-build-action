@@ -1,4 +1,4 @@
-FROM ruby:4.0.6-debian13-fips
+FROM ruby:4-trixie
 
 USER root
 
