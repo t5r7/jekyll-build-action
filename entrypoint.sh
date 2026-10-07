@@ -6,4 +6,4 @@ cd "${GITHUB_WORKSPACE:-/github/workspace}"
 
 bundle config set path "${BUNDLE_PATH:-vendor/bundle}"
 bundle install
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
